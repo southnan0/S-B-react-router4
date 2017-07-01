@@ -34,11 +34,6 @@ module.exports = merge(common, {
         vendors: vendors
     },
     devtool: false,
-    output: {
-        path: PATHS.build,
-        filename: '[name].[chunkhash:4].js',
-        chunkFilename: '[name].[chunkhash:4].js',
-    },
     node: {
         console: true, fs: 'empty', tls: 'empty'
     },

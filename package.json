@@ -1,5 +1,5 @@
 {
-  "name": "S-B",
+  "name": "S-B-react-router4",
   "version": "1.0.1",
   "description": "webpack react",
   "main": "index.js",
@@ -38,7 +38,7 @@
     "cssnano": "^3.10.0",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.8.5",
-    "html-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^2.29.0",
     "html-webpack-template": "^2.5.1",
     "imports-loader": "^0.7.0",
     "isomorphic-style-loader": "^2.0.0",
@@ -60,16 +60,15 @@
     "ws": "^1.1.1"
   },
   "dependencies": {
-    "antd": "^2.9.1",
+    "antd": "^2.11.2",
     "body-parser": "^1.15.0",
     "compression": "^1.6.1",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "formidable": "^1.0.17",
     "history": "^4.6.3",
-    "immutable": "^3.7.6",
+    "immutable": "^3.8.1",
     "lodash": "^4.0.0",
-    "node-uuid": "^1.4.7",
     "promise": "^7.1.1",
     "react": "^15.5.4",
     "react-dom": "^15.6.1",
@@ -82,6 +81,7 @@
     "redux-api-middleware": "^0.6.2",
     "redux-thunk": "^1.0.3",
     "socket.io": "^1.7.3",
+    "uuid": "^3.1.0",
     "wangeditor": "^2.1.22"
   }
 }
